@@ -48,5 +48,5 @@ const employee = {
 
 const {machine, ide} = employee;
 const {weight, address} = employee.specification;
-const {language} = employee.language[0];
+const [language] = [employee.language];
 console.log(language);
